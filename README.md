@@ -8,7 +8,7 @@ The Speaker SoundBoost Magisk、Ksu Module
 
 # 关于作者
 -
-@Sc素菜
+@Link (Sc素菜)
 
 #// English:
 # About Dolby Dolby Dax files
@@ -17,4 +17,4 @@ File source Redmi K60 Ultra
 
 # About the author
 -
-@Sc素菜
+@Link (Sc素菜)
