@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AudioParam version="1.0">
+  <ParamTree>
+    <Param path="Common" param_id="2"/>
+  </ParamTree>
+  <ParamUnitPool>
+    <ParamUnit param_id="0">
+      <Param name="2in1_speaker" value="0"/>
+      <Param name="ultrasound_rampdown_delay" value="1"/>
+      <Param name="delay_start_duration" value="150"/>
+      <Param name="delay_recovery_duration" value="250"/>
+      <Param name="mute_duration" value="150"/>
+    </ParamUnit>
+    <ParamUnit param_id="1">
+      <Param name="2in1_speaker" value="1"/>
+      <Param name="ultrasound_rampdown_delay" value="1"/>
+      <Param name="delay_start_duration" value="150"/>
+      <Param name="delay_recovery_duration" value="250"/>
+      <Param name="mute_duration" value="150"/>
+    </ParamUnit>
+    <ParamUnit param_id="2">
+      <Param name="2in1_speaker" value="2"/>
+      <Param name="ultrasound_rampdown_delay" value="1"/>
+      <Param name="delay_start_duration" value="150"/>
+      <Param name="delay_recovery_duration" value="250"/>
+      <Param name="mute_duration" value="150"/>
+    </ParamUnit>
+    <ParamUnit param_id="3">
+      <Param name="2in1_speaker" value="3"/>
+      <Param name="ultrasound_rampdown_delay" value="1"/>
+      <Param name="delay_start_duration" value="150"/>
+      <Param name="delay_recovery_duration" value="250"/>
+      <Param name="mute_duration" value="150"/>
+    </ParamUnit>
+  </ParamUnitPool>
+</AudioParam>

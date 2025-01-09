@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AudioParam version="1.0">
+  <ParamTree>
+    <Param path="smartpa_nxp_tfa9887" param_id="0"/>
+    <Param path="smartpa_nxp_tfa9890" param_id="1"/>
+    <Param path="smartpa_maxim_98926" param_id="2"/>
+    <Param path="smartpa_richtek_rt5509" param_id="3"/>
+    <Param path="smartpa_cirrus_cs35l35" param_id="4"/>
+    <Param path="smartpa_mtk_dummy" param_id="5"/>
+    <Param path="smartpa_mtk_mt6660" param_id="5"/>
+    <Param path="smartpa_richtek_rt5512" param_id="5"/>
+    <Param path="smartpa_nxp_tfa9874" param_id="6"/>
+    <Param path="smartpa_cirrus_cs35l41" param_id="7"/>
+    <Param path="smartpa_awinic_aw882xx" param_id="20"/>
+  </ParamTree>
+  <ParamUnitPool>
+    <ParamUnit param_id="0">
+      <Param name="have_dsp" value="1"/>
+      <Param name="is_alsa_codec" value="0"/>
+      <Param name="chip_delay_us" value="0x55F0"/>
+      <Param name="supported_rate_list" value="0x1F40,0x2B11,0x2EE0,0x3E80,0x5622,0x5DC0,0x7D00,0xAC44,0xBB80"/>
+      <Param name="spk_lib_path" value="libtfa9887_interface.so"/>
+      <Param name="spk_lib64_path" value="libtfa9887_interface.so"/>
+      <Param name="codec_ctl_name" value=""/>
+      <Param name="is_apll_needed" value="1"/>
+      <Param name="i2s_set_stage" value="10"/>
+    </ParamUnit>
+    <ParamUnit param_id="1">
+      <Param name="have_dsp" value="1"/>
+      <Param name="is_alsa_codec" value="0"/>
+      <Param name="chip_delay_us" value="0x55F0"/>
+      <Param name="supported_rate_list" value="0x1F40,0x2B11,0x2EE0,0x3E80,0x5622,0x5DC0,0x7D00,0xAC44,0xBB80"/>
+      <Param name="spk_lib_path" value="libtfa9890_interface.so"/>
+      <Param name="spk_lib64_path" value="libtfa9890_interface.so"/>
+      <Param name="codec_ctl_name" value=""/>
+      <Param name="is_apll_needed" value="1"/>
+      <Param name="i2s_set_stage" value="10"/>
+    </ParamUnit>
+    <ParamUnit param_id="2">
+      <Param name="have_dsp" value="0"/>
+      <Param name="is_alsa_codec" value="1"/>
+      <Param name="chip_delay_us" value="0x55F0"/>
+      <Param name="supported_rate_list" value="0x3E80,0xAC44,0xBB80"/>
+      <Param name="spk_lib_path" value=""/>
+      <Param name="spk_lib64_path" value=""/>
+      <Param name="codec_ctl_name" value="Spk_Enable"/>
+      <Param name="is_apll_needed" value="0"/>
+      <Param name="i2s_set_stage" value="1"/>
+    </ParamUnit>
+    <ParamUnit param_id="3">
+      <Param name="have_dsp" value="1"/>
+      <Param name="is_alsa_codec" value="1"/>
+      <Param name="chip_delay_us" value="0x55F0"/>
+      <Param name="supported_rate_list" value="0x1F40,0x2B11,0x3E80,0x5622,0x5DC0,0x7D00,0xAC44,0xBB80,0x15888,0x17700,0x2B110,0x2EE00"/>
+      <Param name="spk_lib_path" value="librt_extamp_intf.so"/>
+      <Param name="spk_lib64_path" value="librt_extamp_intf.so"/>
+      <Param name="codec_ctl_name" value=""/>
+      <Param name="is_apll_needed" value="1"/>
+      <Param name="i2s_set_stage" value="4"/>
+    </ParamUnit>
+    <ParamUnit param_id="4">
+      <Param name="have_dsp" value="2"/>
+      <Param name="is_alsa_codec" value="1"/>
+      <Param name="chip_delay_us" value="0x55F0"/>
+      <Param name="supported_rate_list" value="0xBB80"/>
+      <Param name="spk_lib_path" value=""/>
+      <Param name="spk_lib64_path" value=""/>
+      <Param name="codec_ctl_name" value=""/>
+      <Param name="is_apll_needed" value="1"/>
+      <Param name="i2s_set_stage" value="8"/>
+    </ParamUnit>
+    <ParamUnit param_id="5">
+      <Param name="have_dsp" value="2"/>
+      <Param name="is_alsa_codec" value="1"/>
+      <Param name="chip_delay_us" value="0x55F0"/>
+      <Param name="supported_rate_list" value="0x1F40,0x2B11,0x3E80,0x5622,0x5DC0,0x7D00,0xAC44,0xBB80,0x15888,0x17700,0x2B110,0x2EE00"/>
+      <Param name="spk_lib_path" value="librt_extamp_intf.so"/>
+      <Param name="spk_lib64_path" value="librt_extamp_intf.so"/>
+      <Param name="codec_ctl_name" value=""/>
+      <Param name="is_apll_needed" value="1"/>
+      <Param name="i2s_set_stage" value="4"/>
+    </ParamUnit>
+    <ParamUnit param_id="6">
+      <Param name="have_dsp" value="2"/>
+      <Param name="is_alsa_codec" value="1"/>
+      <Param name="chip_delay_us" value="0x55F0"/>
+      <Param name="supported_rate_list" value="0x1F40,0x2B11,0x3E80,0x5622,0x5DC0,0x7D00,0xAC44,0xBB80,0x15888,0x17700,0x2B110,0x2EE00"/>
+      <Param name="spk_lib_path" value="libnxp_extamp_intf.so"/>
+      <Param name="spk_lib64_path" value="libnxp_extamp_intf.so"/>
+      <Param name="codec_ctl_name" value=""/>
+      <Param name="is_apll_needed" value="1"/>
+      <Param name="i2s_set_stage" value="4"/>
+    </ParamUnit>
+    <ParamUnit param_id="7">
+      <Param name="have_dsp" value="1"/>
+      <Param name="is_alsa_codec" value="1"/>
+      <Param name="chip_delay_us" value="0x55F0"/>
+      <Param name="supported_rate_list" value="0x1F40,0x2B11,0x3E80,0x5622,0x5DC0,0x7D00,0xAC44,0xBB80,0x15888,0x17700,0x2B110,0x2EE00"/>
+      <Param name="spk_lib_path" value="libcs_extamp_intf.so"/>
+      <Param name="spk_lib64_path" value="libcs_extamp_intf.so"/>
+      <Param name="codec_ctl_name" value=""/>
+      <Param name="is_apll_needed" value="1"/>
+      <Param name="i2s_set_stage" value="4"/>
+    </ParamUnit>
+    <ParamUnit param_id="20">
+      <Param name="have_dsp" value="2"/>
+      <Param name="is_alsa_codec" value="1"/>
+      <Param name="chip_delay_us" value="0x55F0"/>
+      <Param name="supported_rate_list" value="0x1F40,0x2B11,0x3E80,0x5622,0x5DC0,0x7D00,0xAC44,0xBB80,0x15888,0x17700,0x2B110,0x2EE00"/>
+      <Param name="spk_lib_path" value=""/>
+      <Param name="spk_lib64_path" value=""/>
+      <Param name="codec_ctl_name" value=""/>
+      <Param name="is_apll_needed" value="1"/>
+      <Param name="i2s_set_stage" value="4"/>
+    </ParamUnit>
+  </ParamUnitPool>
+</AudioParam>

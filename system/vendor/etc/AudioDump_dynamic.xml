@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AudioDumpSettings>
+	<Category name="">
+		<Actions name="Record" ui_type="button">
+			<!--Framework-->
+			<Action cmd_id="at_dump_set_param_on" value="1"/>
+			<Action cmd_id="af_record_dump_set_param_on" value="1"/>
+			<Action cmd_id="af_resampler_dump_set_param_on" value="0"/>
+			<Action cmd_id="af_aaudio_dump_set_param_on" value="1"/>
+			<Action cmd_id="af_dump_log_set_param_on" value="1"/>
+			<Action cmd_id="at_dump" value="1"/>
+			<Action cmd_id="af_record_dump" value="1"/>
+			<Action cmd_id="af_resampler_dump" value="1"/>
+			<Action cmd_id="af_aaudio_dump" value="1"/>
+			<Action cmd_id="af_dump_log" value="1"/>
+			<!--HAL-->
+			<Action cmd_id="hal_ul_dump" value="1"/>
+			<Action cmd_id="adsp_ul_dump" value="1"/>
+		</Actions>
+
+		<Actions name="Playback" ui_type="button">
+			<!--Framework-->
+			<Action cmd_id="at_dump_set_param_on" value="1"/>
+			<Action cmd_id="af_mixer_dump_set_param_on" value="0"/>
+			<Action cmd_id="af_drc_dump_set_param_on" value="0"/>
+			<Action cmd_id="af_writer_pcm_set_param_on" value="1"/>
+			<Action cmd_id="af_offload_dump_set_param_on" value="1"/>
+			<Action cmd_id="af_resampler_dump_set_param_on" value="0"/>
+			<Action cmd_id="af_aaudio_dump_set_param_on" value="1"/>
+			<Action cmd_id="af_effect_dump_set_param_on" value="1"/>
+			<Action cmd_id="af_dump_log_set_param_on" value="1"/>
+			<Action cmd_id="at_dump" value="1"/>
+			<Action cmd_id="af_mixer_dump" value="0"/>
+			<Action cmd_id="af_drc_dump" value="0"/>
+			<Action cmd_id="af_writer_pcm" value="1"/>
+			<Action cmd_id="af_offload_dump" value="1"/>
+			<Action cmd_id="af_resampler_dump" value="1"/>
+			<Action cmd_id="af_aaudio_dump" value="1"/>
+			<Action cmd_id="af_effect_dump" value="1"/>
+			<Action cmd_id="af_dump_log" value="1"/>
+			<!--HAL-->
+			<Action cmd_id="hal_dl_dump" value="1"/>
+			<Action cmd_id="adsp_dl_dump" value="1"/>
+		</Actions>
+		<Actions name="VoIP Call" ui_type="button">
+			<!--Framework-->
+			<Action cmd_id="at_dump_set_param_on" value="1"/>
+			<Action cmd_id="af_mixer_dump_set_param_on" value="0"/>
+			<Action cmd_id="af_drc_dump_set_param_on" value="0"/>
+			<Action cmd_id="af_writer_pcm_set_param_on" value="1"/>
+			<Action cmd_id="af_offload_dump_set_param_on" value="1"/>
+			<Action cmd_id="af_resampler_dump_set_param_on" value="0"/>
+			<Action cmd_id="af_aaudio_dump_set_param_on" value="1"/>
+			<Action cmd_id="af_effect_dump_set_param_on" value="1"/>
+			<Action cmd_id="af_record_dump_set_param_on" value="1"/>
+			<Action cmd_id="af_dump_log_set_param_on" value="1"/>
+			<Action cmd_id="at_dump" value="1"/>
+			<Action cmd_id="af_mixer_dump" value="0"/>
+			<Action cmd_id="af_drc_dump" value="0"/>
+			<Action cmd_id="af_writer_pcm" value="1"/>
+			<Action cmd_id="af_offload_dump" value="1"/>
+			<Action cmd_id="af_resampler_dump" value="1"/>
+			<Action cmd_id="af_aaudio_dump" value="1"/>
+			<Action cmd_id="af_effect_dump" value="1"/>
+			<Action cmd_id="af_dump_log" value="1"/>
+			<Action cmd_id="af_record_dump" value="1"/>
+			<!--HAL-->
+			<Action cmd_id="hal_dl_dump" value="1"/>
+			<Action cmd_id="hal_ul_dump" value="1"/>
+			<Action cmd_id="adsp_dl_dump" value="1"/>
+			<Action cmd_id="adsp_ul_dump" value="1"/>
+		</Actions>
+		<Actions name="MD Call" ui_type="button">
+			<Action cmd_id="md_vm_config" value="1"/>
+			<Action cmd_id="md_speech_para_on" value="1"/>
+			<Action cmd_id="save_xml" value="1"/>
+			<Action cmd_id="md_debug_on" value="1"/>
+			<Action cmd_id="save_xml" value="1"/>
+		</Actions>
+		<Actions name="BT" ui_type="button">
+			<!--Framework-->
+			<Action cmd_id="at_dump_set_param_on" value="1"/>
+			<Action cmd_id="af_mixer_dump_set_param_on" value="0"/>
+			<Action cmd_id="af_drc_dump_set_param_on" value="0"/>
+			<Action cmd_id="af_writer_pcm_set_param_on" value="1"/>
+			<Action cmd_id="af_offload_dump_set_param_on" value="1"/>
+			<Action cmd_id="af_resampler_dump_set_param_on" value="0"/>
+			<Action cmd_id="af_aaudio_dump_set_param_on" value="1"/>
+			<Action cmd_id="af_effect_dump_set_param_on" value="1"/>
+			<Action cmd_id="af_record_dump_set_param_on" value="1"/>
+			<Action cmd_id="af_dump_log_set_param_on" value="1"/>
+			<Action cmd_id="at_dump" value="1"/>
+			<Action cmd_id="af_mixer_dump" value="0"/>
+			<Action cmd_id="af_drc_dump" value="0"/>
+			<Action cmd_id="af_writer_pcm" value="1"/>
+			<Action cmd_id="af_offload_dump" value="1"/>
+			<Action cmd_id="af_resampler_dump" value="1"/>
+			<Action cmd_id="af_aaudio_dump" value="1"/>
+			<Action cmd_id="af_effect_dump" value="1"/>
+			<Action cmd_id="af_dump_log" value="1"/>
+			<Action cmd_id="af_record_dump" value="1"/>
+			<Action cmd_id="af_dump_log" value="1"/>
+			<!--HAL-->
+			<Action cmd_id="hal_dl_dump" value="1"/>
+			<Action cmd_id="hal_ul_dump" value="1"/>
+			<Action cmd_id="adsp_dl_dump" value="1"/>
+			<Action cmd_id="adsp_ul_dump" value="1"/>
+			<Action cmd_id="md_vm_config" value="1"/>
+			<Action cmd_id="md_speech_para_on" value="1"/>
+			<Action cmd_id="save_xml" value="1"/>
+			<Action cmd_id="md_debug_on" value="1"/>
+			<Action cmd_id="save_xml" value="1"/>
+		</Actions>
+	</Category>
+	<Category name="">
+		<Actions name="Enable All Dump" ui_type="button">
+			<!--Framework-->
+			<Action cmd_id="at_dump_set_param_on" value="1"/>
+			<Action cmd_id="af_mixer_dump_set_param_on" value="0"/>
+			<Action cmd_id="af_drc_dump_set_param_on" value="0"/>
+			<Action cmd_id="af_writer_pcm_set_param_on" value="1"/>
+			<Action cmd_id="af_offload_dump_set_param_on" value="1"/>
+			<Action cmd_id="af_resampler_dump_set_param_on" value="0"/>
+			<Action cmd_id="af_aaudio_dump_set_param_on" value="1"/>
+			<Action cmd_id="af_effect_dump_set_param_on" value="1"/>
+			<Action cmd_id="af_record_dump_set_param_on" value="1"/>
+			<Action cmd_id="af_dump_log_set_param_on" value="1"/>
+			<Action cmd_id="at_dump" value="1"/>
+			<Action cmd_id="af_mixer_dump" value="0"/>
+			<Action cmd_id="af_drc_dump" value="0"/>
+			<Action cmd_id="af_writer_pcm" value="1"/>
+			<Action cmd_id="af_offload_dump" value="1"/>
+			<Action cmd_id="af_resampler_dump" value="1"/>
+			<Action cmd_id="af_aaudio_dump" value="1"/>
+			<Action cmd_id="af_effect_dump" value="1"/>
+			<Action cmd_id="af_dump_log" value="1"/>
+			<Action cmd_id="af_record_dump" value="1"/>
+			<!--HAL-->
+			<Action cmd_id="hal_dl_dump" value="1"/>
+			<Action cmd_id="hal_ul_dump" value="1"/>
+			<Action cmd_id="adsp_dl_dump" value="1"/>
+			<Action cmd_id="adsp_ul_dump" value="1"/>
+			<Action cmd_id="md_vm_config" value="1"/>
+			<Action cmd_id="md_speech_para_on" value="1"/>
+			<Action cmd_id="save_xml" value="1"/>
+			<Action cmd_id="md_debug_on" value="1"/>
+			<Action cmd_id="save_xml" value="1"/>
+		</Actions>
+		<Group name="" ui_type="default">
+			<Command id="" name="Disable All Dump" ui_type="button" button_action="restore" cmd_type="restore"/>
+                  	<Command id="" name="Delete All Dump" ui_type="button" button_action="adb shell AudioSetParam AudioDumpEmpty=1" cmd_type="adb shell"/>
+		</Group>
+	</Category>
+	<Category name="Functional CMD">
+		<Group name="" ui_type="default">
+			<Command id="" name="ADSP Recovery Test (require extra premission)" ui_type="button" button_action="adb shell echo 238 > /sys/class/misc/adsp_0/ipi_test; echo Require to disable SELinux and change /sys/class/misc/adsp_0/ipi_test access control to 777" cmd_type="adb shell"/>
+		</Group>
+	</Category>
+	<Category name="Current Dump Setting">
+		<Group name="" ui_type="default">
+			<!--AT Dump-->
+			<Command id="at_dump" name="AT" ui_type="checkbox" checked="1" unchecked="0" cmd_type="set_property" property="vendor.af.track.pcm" default="0"/>
+			<Command id="at_dump_set_param_on" name="" ui_type="hidden" button_action="adb shell AudioSetParam vendor.af.track.pcm=1" cmd_type="adb shell"/>
+			<Command id="at_dump_set_param_off" name="" ui_type="hidden" button_action="adb shell AudioSetParam vendor.af.track.pcm=0" cmd_type="adb shell"/>
+
+			<!--AF DL Dump-->
+			<Command id="af_mixer_dump" name="AF Mixer" ui_type="checkbox" checked="1" unchecked="0" cmd_type="set_property" property="vendor.af.mixer.end.pcm" default="0"/>
+			<Command id="af_mixer_dump_set_param_on" name="" ui_type="hidden" button_action="adb shell AudioSetParam vendor.af.mixer.end.pcm=1" cmd_type="adb shell"/>
+			<Command id="af_mixer_dump_set_param_off" name="" ui_type="hidden" button_action="adb shell AudioSetParam vendor.af.mixer.end.pcm=0" cmd_type="adb shell"/>
+
+			<Command id="af_drc_dump" name="AF Mixer DRC" ui_type="checkbox" checked="1" unchecked="0" cmd_type="set_property" property="vendor.af.mixer.drc.pcm" default="0"/>
+			<Command id="af_drc_dump_set_param_on" name="" ui_type="hidden" button_action="adb shell AudioSetParam vendor.af.mixer.drc.pcm=1" cmd_type="adb shell"/>
+			<Command id="af_drc_dump_set_param_off" name="" ui_type="hidden" button_action="adb shell AudioSetParam vendor.af.mixer.drc.pcm=0" cmd_type="adb shell"/>
+
+			<Command id="af_writer_pcm" name="AF Writer" ui_type="checkbox" checked="1" unchecked="0" cmd_type="set_property" property="vendor.af.mixer.pcm" default="0"/>
+			<Command id="af_writer_pcm_set_param_on" name="" ui_type="hidden" button_action="adb shell AudioSetParam vendor.af.mixer.pcm=1" cmd_type="adb shell"/>
+			<Command id="af_writer_pcm_set_param_off" name="" ui_type="hidden" button_action="adb shell AudioSetParam vendor.af.mixer.pcm=0" cmd_type="adb shell"/>
+
+			<Command id="af_offload_dump" name="AF Offload" ui_type="checkbox" checked="1" unchecked="0" cmd_type="set_property" property="vendor.af.offload.write.raw" default="0"/>
+			<Command id="af_offload_dump_set_param_on" name="" ui_type="hidden" button_action="adb shell AudioSetParam vendor.af.offload.write.raw=1" cmd_type="adb shell"/>
+			<Command id="af_offload_dump_set_param_off" name="" ui_type="hidden" button_action="adb shell AudioSetParam vendor.af.offload.write.raw=0" cmd_type="adb shell"/>
+
+			<Command id="af_resampler_dump" name="AF Resampler" ui_type="checkbox" checked="1" unchecked="0" cmd_type="set_property" property="vendor.af.resampler.pcm" default="0"/>
+			<Command id="af_resampler_dump_set_param_on" name="" ui_type="hidden" button_action="adb shell AudioSetParam vendor.af.resampler.pcm=1" cmd_type="adb shell"/>
+			<Command id="af_resampler_dump_set_param_off" name="" ui_type="hidden" button_action="adb shell AudioSetParam vendor.af.resampler.pcm=0" cmd_type="adb shell"/>
+
+			<Command id="af_aaudio_dump" name="AF AAudio" ui_type="checkbox" checked="1" unchecked="0" cmd_type="set_property" property="vendor.aaudio.pcm" default="0"/>
+			<Command id="af_aaudio_dump_set_param_on" name="" ui_type="hidden" button_action="adb shell AudioSetParam vendor.aaudio.pcm=1" cmd_type="adb shell"/>
+			<Command id="af_aaudio_dump_set_param_off" name="" ui_type="hidden" button_action="adb shell AudioSetParam vendor.aaudio.pcm=0" cmd_type="adb shell"/>
+
+			<Command id="af_effect_dump" name="AF Effect" ui_type="checkbox" checked="1" unchecked="0" cmd_type="set_property" property="vendor.af.effect.pcm" default="0"/>
+			<Command id="af_effect_dump_set_param_on" name="" ui_type="hidden" button_action="adb shell AudioSetParam vendor.af.effect.pcm=1" cmd_type="adb shell"/>
+			<Command id="af_effect_dump_set_param_off" name="" ui_type="hidden" button_action="adb shell AudioSetParam vendor.af.effect.pcm=0" cmd_type="adb shell"/>
+
+			<Command id="af_dump_log" name="AF Dump" ui_type="checkbox" checked="1" unchecked="0" cmd_type="set_property" property="vendor.af.dumplog" default="0"/>
+			<Command id="af_dump_log_set_param_on" name="" ui_type="hidden" button_action="adb shell AudioSetParam vendor.af.dumplog=1" cmd_type="adb shell"/>
+			<Command id="af_dump_log_set_param_off" name="" ui_type="hidden" button_action="adb shell AudioSetParam vendor.af.dumplog=0" cmd_type="adb shell"/>
+
+			<!--AF UL Dump-->
+			<Command id="af_record_dump" name="AF Record" ui_type="checkbox" checked="1" unchecked="0" cmd_type="set_property" property="vendor.af.record.dump.pcm" default="0"/>
+			<Command id="af_record_dump_set_param_on" name="" ui_type="hidden" button_action="adb shell AudioSetParam vendor.af.record.dump.pcm=1" cmd_type="adb shell"/>
+			<Command id="af_record_dump_set_param_off" name="" ui_type="hidden" button_action="adb shell AudioSetParam vendor.af.record.dump.pcm=0" cmd_type="adb shell"/>
+
+			<!--HAL Dump-->
+			<Command id="hal_dl_dump" name="HAL DL" ui_type="checkbox" checked="1" unchecked="0" cmd_type="set_property" property="vendor.streamout.pcm.dump" default="0"/>
+			<Command id="hal_ul_dump" name="HAL UL" ui_type="checkbox" checked="1" unchecked="0" cmd_type="set_property" property="vendor.streamin.pcm.dump" default="0"/>
+			
+			<!--ADSP Dump-->
+			<Command id="adsp_dl_dump" name="ADSP DL" ui_type="checkbox" checked="1" unchecked="0" cmd_type="set_property" property="vendor.streamout.dsp.dump" default="0"/>
+			<Command id="adsp_ul_dump" name="ADSP UL" ui_type="checkbox" checked="1" unchecked="0" cmd_type="set_property" property="vendor.streamin.dsp.dump" default="0"/>
+			
+			<!--MD Dump-->
+			<Command id="md_vm_config" name="MD VM Config" ui_type="checkbox" checked="1" unchecked="0" cmd_type="set_property" property="persist.vendor.audiohal.vm_cfg" default="0"/>
+			<Command id="md_speech_para_on" name="MD Speech Para" ui_type="hidden" button_action="adb shell SET=`AudioSetParam APP_GET_PARAM#SpeechGeneral#CategoryLayer,EPL_On#speech_common_para 2>&#38;1 | cut -d '=' -f 2`; AudioSetParam APP_SET_PARAM=SpeechGeneral#CategoryLayer,Common#speech_common_para#${SET}" cmd_type="adb shell"/>
+			<Command id="md_speech_para_off" name="MD Speech Para off" ui_type="hidden" button_action="adb shell SET=`AudioSetParam APP_GET_PARAM#SpeechGeneral#CategoryLayer,EPL_Off#speech_common_para 2>&#38;1 | cut -d '=' -f 2`; AudioSetParam APP_SET_PARAM=SpeechGeneral#CategoryLayer,Common#speech_common_para#${SET}" cmd_type="adb shell"/>
+			<Command id="md_debug_on" name="MD Debug Info" ui_type="hidden" button_action="adb shell SET=`AudioSetParam APP_GET_PARAM#SpeechGeneral#CategoryLayer,EPL_On#debug_info 2>&#38;1 | cut -d '=' -f 2`; AudioSetParam APP_SET_PARAM=SpeechGeneral#CategoryLayer,Common#debug_info#${SET}" cmd_type="adb shell"/>
+			<Command id="md_debug_off" name="MD Debug Info off" ui_type="hidden" button_action="adb shell SET=`AudioSetParam APP_GET_PARAM#SpeechGeneral#CategoryLayer,EPL_Off#debug_info 2>&#38;1 | cut -d '=' -f 2`; AudioSetParam APP_SET_PARAM=SpeechGeneral#CategoryLayer,Common#debug_info#${SET}" cmd_type="adb shell"/>
+			<Command id="save_xml" name="" ui_type="hidden" button_action="adb shell AudioSetParam APP_SAVE_XML=SpeechGeneral" cmd_type="adb shell"/>
+		</Group>
+	</Category>
+</AudioDumpSettings>
