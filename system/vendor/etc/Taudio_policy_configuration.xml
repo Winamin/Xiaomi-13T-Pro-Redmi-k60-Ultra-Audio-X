@@ -368,7 +368,7 @@
                 <route type="mix" sink="Earpiece"
                        sources="primary output,deep_buffer,HiAudioX,direct_pcm,voip_rx,mmap_no_irq_out,fast,Voice Call In"/>
                 <route type="mix" sink="Speaker"
-                       sources="primary output,deep_buffe,HiAudioXr,direct_pcm,mmap_no_irq_out,fast,FM Tuner In,voip_rx,Voice Call In,hifi_playback"/>
+                       sources="primary output,deep_buffer,HiAudioX,direct_pcm,mmap_no_irq_out,fast,FM Tuner In,voip_rx,Voice Call In,hifi_playback"/>
                 <route type="mix" sink="Wired Headset"
                        sources="primary output,deep_buffer,HiAudioX,direct_pcm,mmap_no_irq_out,fast,FM Tuner In,voip_rx,Voice Call In,hifi_playback"/>
                 <route type="mix" sink="Wired Headphones"
