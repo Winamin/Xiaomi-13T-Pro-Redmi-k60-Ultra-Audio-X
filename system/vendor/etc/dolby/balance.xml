@@ -1467,7 +1467,7 @@
       <volume-leveler-compressor-enable value="false"/>
       <bass-extraction-enable value="false"/>
       <complex-equalizer-enable value="false"/>
-      <regulator-enable value="falae"/>
+      <regulator-enable value="false"/>
       <regulator-speaker-dist-enable value="false"/>
       <regulator-sibilance-suppress-enable value="false"/>
       <bass-mbdrc-enable value="false"/>
