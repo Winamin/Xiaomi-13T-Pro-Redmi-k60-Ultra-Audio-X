@@ -59,7 +59,7 @@
                 <mixPort name="primary output" role="source" flags="AUDIO_OUTPUT_FLAG_PRIMARY">
                     <profile name="" format="AUDIO_FORMAT_PCM_32_BIT"
                              samplingRates="44100 48000 64000 88200 96000 128000 176400 192000" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
-			        <profile name="" format="AUDIO_FORMAT_PCM_24_BIT_PACKED"
+		      <profile name="" format="AUDIO_FORMAT_PCM_24_BIT_PACKED"
                              samplingRates="44100 48000 64000 88200 96000 128000 176400 192000" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
                     <profile name="" format="AUDIO_FORMAT_PCM_8_24_BIT"
                              samplingRates="44100 48000 64000 88200 96000 128000 176400 192000" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
@@ -69,7 +69,7 @@
                 <mixPort name="deep_buffer" role="source" flags="AUDIO_OUTPUT_FLAG_DEEP_BUFFER">
                     <profile name="" format="AUDIO_FORMAT_PCM_32_BIT"
                              samplingRates="44100 48000 64000 88200 96000 128000 176400 192000" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
-			        <profile name="" format="AUDIO_FORMAT_PCM_24_BIT_PACKED"
+		      <profile name="" format="AUDIO_FORMAT_PCM_24_BIT_PACKED"
                              samplingRates="44100 48000 64000 88200 96000 128000 176400 192000" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
                     <profile name="" format="AUDIO_FORMAT_PCM_8_24_BIT"
                              samplingRates="44100 48000 64000 88200 96000 128000 176400 192000" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
@@ -79,7 +79,7 @@
                 <mixPort name="fast" role="source" flags="AUDIO_OUTPUT_FLAG_FAST">
                     <profile name="" format="AUDIO_FORMAT_PCM_32_BIT"
                              samplingRates="44100 48000" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
-			        <profile name="" format="AUDIO_FORMAT_PCM_24_BIT_PACKED"
+		      <profile name="" format="AUDIO_FORMAT_PCM_24_BIT_PACKED"
                              samplingRates="44100 48000" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
                     <profile name="" format="AUDIO_FORMAT_PCM_8_24_BIT"
                              samplingRates="44100 48000" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
@@ -117,7 +117,7 @@
                 <mixPort name="voip_rx" role="source" flags="AUDIO_OUTPUT_FLAG_VOIP_RX">
                     <profile name="" format="AUDIO_FORMAT_PCM_32_BIT"
                              samplingRates="16000 32000 44100 48000 96000 192000" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
-			        <profile name="" format="AUDIO_FORMAT_PCM_24_BIT_PACKED"
+		      <profile name="" format="AUDIO_FORMAT_PCM_24_BIT_PACKED"
                              samplingRates="16000 32000 44100 48000 96000 192000" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
                     <profile name="" format="AUDIO_FORMAT_PCM_8_24_BIT"
                              samplingRates="16000 32000 44100 48000 96000 192000" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
@@ -127,7 +127,7 @@
                 <mixPort name="mmap_no_irq_out" role="source" flags="AUDIO_OUTPUT_FLAG_DIRECT AUDIO_OUTPUT_FLAG_MMAP_NOIRQ">
                     <profile name="" format="AUDIO_FORMAT_PCM_32_BIT"
                              samplingRates="44100 48000 96000 192000" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
-			        <profile name="" format="AUDIO_FORMAT_PCM_24_BIT_PACKED"
+		      <profile name="" format="AUDIO_FORMAT_PCM_24_BIT_PACKED"
                              samplingRates="44100 48000 96000 192000" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
                     <profile name="" format="AUDIO_FORMAT_PCM_8_24_BIT"
                              samplingRates="44100 48000 96000 192000" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
@@ -137,7 +137,7 @@
                 <mixPort name="incall_music_uplink" role="source" flags="AUDIO_OUTPUT_FLAG_INCALL_MUSIC">
                     <profile name="" format="AUDIO_FORMAT_PCM_32_BIT"
                              samplingRates="44100 48000" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
-			        <profile name="" format="AUDIO_FORMAT_PCM_24_BIT_PACKED"
+		      <profile name="" format="AUDIO_FORMAT_PCM_24_BIT_PACKED"
                              samplingRates="44100 48000" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
                     <profile name="" format="AUDIO_FORMAT_PCM_8_24_BIT"
                              samplingRates="44100 48000" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
@@ -279,7 +279,7 @@
                     <profile name="" format="AUDIO_FORMAT_PCM_16_BIT"
                              samplingRates="44100 48000" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
                 </devicePort>
-                <devicePort tagName="BT A2DP Out" type="AUDIO_DEVICE_OUT_BLUETOOTH_A2DP" role="sink" encodedFormats="AUDIO_FORMAT_SBC AUDIO_FORMAT_AAC AUDIO_FORMAT_APTX AUDIO_FORMAT_APTX_HD AUDIO_FORMAT_LDAC AUDIO_FORMAT_CELT AUDIO_FORMAT_APTX_ADAPTIVE AUDIO_FORMAT_APTX_TWSP AUDIO_FORMAT_LC3">
+                <devicePort tagName="BT A2DP Out" type="AUDIO_DEVICE_OUT_BLUETOOTH_A2DP" role="sink" encodedFormats="AUDIO_FORMAT_SBC AUDIO_FORMAT_AAC">
                     <profile name="" format="AUDIO_FORMAT_PCM_32_BIT"
                              samplingRates="dynamic" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
                     <profile name="" format="AUDIO_FORMAT_PCM_8_24_BIT"
@@ -287,7 +287,7 @@
                     <profile name="" format="AUDIO_FORMAT_PCM_16_BIT"
                              samplingRates="dynamic" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
                 </devicePort>
-                <devicePort tagName="BT A2DP Headphones" type="AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES" role="sink" encodedFormats="AUDIO_FORMAT_SBC AUDIO_FORMAT_AAC AUDIO_FORMAT_APTX AUDIO_FORMAT_APTX_HD AUDIO_FORMAT_LDAC AUDIO_FORMAT_CELT AUDIO_FORMAT_APTX_ADAPTIVE AUDIO_FORMAT_APTX_TWSP AUDIO_FORMAT_LC3">
+                <devicePort tagName="BT A2DP Headphones" type="AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES" role="sink" encodedFormats="AUDIO_FORMAT_SBC AUDIO_FORMAT_AAC">
                     <profile name="" format="AUDIO_FORMAT_PCM_32_BIT"
                              samplingRates="dynamic" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
                     <profile name="" format="AUDIO_FORMAT_PCM_8_24_BIT"
@@ -295,7 +295,7 @@
                     <profile name="" format="AUDIO_FORMAT_PCM_16_BIT"
                              samplingRates="dynamic" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
                 </devicePort>
-                <devicePort tagName="BT A2DP Speaker" type="AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER" role="sink" encodedFormats="AUDIO_FORMAT_SBC AUDIO_FORMAT_AAC AUDIO_FORMAT_APTX AUDIO_FORMAT_APTX_HD AUDIO_FORMAT_LDAC AUDIO_FORMAT_CELT AUDIO_FORMAT_APTX_ADAPTIVE AUDIO_FORMAT_APTX_TWSP AUDIO_FORMAT_LC3">
+                <devicePort tagName="BT A2DP Speaker" type="AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER" role="sink" encodedFormats="AUDIO_FORMAT_SBC AUDIO_FORMAT_AAC">
                     <profile name="" format="AUDIO_FORMAT_PCM_32_BIT"
                              samplingRates="dynamic" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
                     <profile name="" format="AUDIO_FORMAT_PCM_8_24_BIT"
